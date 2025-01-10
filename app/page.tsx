@@ -1,5 +1,5 @@
-import Image from "next/image";
-import Link from "next/link";
+// import Image from "next/image";
+// import Link from "next/link";
 
 export default function Home() {
   return (
@@ -31,18 +31,22 @@ export default function Home() {
       <p>Link to privacy policy of third party service providers used by the app</p>
       <nav className="container mx-auto p-4">
         <ul className="list-disc list-inside">
-          <li className="hover:text-blue-950 transition duration-300 text-blue-600"><a href="https://www.google.com/policies/privacy/" target="_blank" rel="noopener noreferrer">Google Play Services</a></li>
-          <li className="hover:text-blue-950 transition duration-300 text-blue-600"><a href="https://firebase.google.com/policies/analytics" target="_blank" rel="noopener noreferrer">Firebase Crashlytics</a></li>
-          <li className="hover:text-blue-950 transition duration-300 text-blue-600"><a href="https://firebase.google.com/support/privacy/" target="_blank" rel="noopener noreferrer">Google Analytics for Firebase</a></li>
-          <li className="hover:text-blue-950 transition duration-300 text-blue-600"><a href="https://livekit.io/legal/privacy-policy" target="_blank" rel="noopener noreferrer">LiveKit</a></li>
+          <li className="hover:text-blue-950 transition duration-300 text-blue-600">
+            <a href="https://www.google.com/policies/privacy/" target="_blank" rel="noopener noreferrer">Google Play Services</a></li>
+          <li className="hover:text-blue-950 transition duration-300 text-blue-600">
+            <a href="https://firebase.google.com/policies/analytics" target="_blank" rel="noopener noreferrer">Firebase Crashlytics</a></li>
+          <li className="hover:text-blue-950 transition duration-300 text-blue-600">
+            <a href="https://firebase.google.com/support/privacy/" target="_blank" rel="noopener noreferrer">Google Analytics for Firebase</a></li>
+          <li className="hover:text-blue-950 transition duration-300 text-blue-600">
+            <a href="https://livekit.io/legal/privacy-policy" target="_blank" rel="noopener noreferrer">LiveKit</a></li>
         </ul>
       </nav>
       <br />
       <p>We want to inform you that whenever you use our Service, in a case of an error in the app we collect data and information (through third-party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing our Service, the time and date of your use of the Service, and other statistics.</p>
       <br />
-      <h2 >Cookies</h2>
-      <p>Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device's internal memory. This Service does not use these “cookies” explicitly. However, the app may use third-party code and libraries that use “cookies” to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service.</p>
-      <br />
+      <h2>Cookies</h2>
+      <p>Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device&apos;s internal memory. This Service does not use these &apos;cookies&apos; explicitly. However, the app may use third-party code and libraries that use &apos;cookies&apos; to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service.</p>
+      <br/>
       <h2 >Service Providers</h2>
       <p>We may employ third-party companies and individuals due to the following reasons: To facilitate our Service; To provide the Service on our behalf; To perform Service-related services; or To assist us in analyzing how our Service is used. We want to inform users of this Service that these third parties have access to their Personal Information. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.</p>
       <br />
