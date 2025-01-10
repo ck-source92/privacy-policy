@@ -13,6 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  icons: {
+    icon: "/bamboo.svg",
+  },
   title: "Privacy Policy - Bambooo21 Studio",
   description: "Privacy policy for Bambooo21 Studio",
 };
