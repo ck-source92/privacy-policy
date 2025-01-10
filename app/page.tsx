@@ -71,6 +71,7 @@ export default function Home() {
       <p>If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at <a className="text-blue-700" href="mailto:studiobambooo21@gmail.com">studiobambooo21@gmail.com</a>.</p>
       <br />
       <br />
+      <br />
     </div>
   );
 }
